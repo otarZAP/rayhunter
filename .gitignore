@@ -1,0 +1,25 @@
+# Raw captures — never commit these.
+# Identity Response frames contain your IMSI and IMEI in cleartext.
+*.pcapng
+*.pcap
+*.qmdl
+*.qmdl2
+data/captures/
+data/raw/
+
+# Source documents / drafts kept out of the public repo
+_private/
+
+# Derived output
+out/
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+Thumbs.db
+.DS_Store
